@@ -16,7 +16,7 @@ public class MainClient {
 		enterText(model);
 	}
 
-	//Press ctrl+z to terminate
+	//Press ctrl+z to terminate on windows
 	public static void enterText(MarkovModel model) {
 		try (Scanner scan = new Scanner(System.in)) {
 			String word = "";

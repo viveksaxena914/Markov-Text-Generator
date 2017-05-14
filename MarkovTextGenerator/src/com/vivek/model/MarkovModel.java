@@ -26,7 +26,7 @@ public class MarkovModel {
 	public String getNextWord(String word) {
 		WordNode wordNode = this.model.get(word);
 		if (wordNode != null) {
-			return wordNode.getNextWordNodes(random).getWord();
+			return wordNode.getNextWordNode(random).getWord();
 		}
 		return "";
 	}

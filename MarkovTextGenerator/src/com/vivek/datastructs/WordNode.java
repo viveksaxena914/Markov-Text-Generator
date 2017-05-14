@@ -17,7 +17,7 @@ public class WordNode {
 		this.probabilityList = new LinkedList<>();
 	}
 
-	public WordNode getNextWordNodes(Random random) {
+	public WordNode getNextWordNode(Random random) {
 		if (this.probabilityList.size() == 0)
 			return EMPTY_NODE;
 
